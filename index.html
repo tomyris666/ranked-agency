@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RANKED — Digital Consultancy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a class="nav__logo" href="#">RANKED</a>
+    <ul class="nav__links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact" class="nav__cta">Let's talk</a></li>
+    </ul>
+    <button class="nav__burger" id="burger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__eyebrow">
+      <span class="dot"></span>
+      <span>Digital Consultancy &amp; Marketing</span>
+    </div>
+    <h1 class="hero__headline">
+      We build brands<br />
+      <em>that dominate</em><br />
+      their category.
+    </h1>
+    <p class="hero__sub">
+      Strategy. Technology. Creative. Three disciplines, one studio, zero compromise.
+    </p>
+    <div class="hero__actions">
+      <a href="#work" class="btn btn--primary">View our work</a>
+      <a href="#services" class="btn btn--ghost">What we do ↓</a>
+    </div>
+    <div class="hero__scroll-line"></div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>AI Strategy</span><span>·</span>
+      <span>Brand Identity</span><span>·</span>
+      <span>Performance Marketing</span><span>·</span>
+      <span>Web &amp; Product</span><span>·</span>
+      <span>Data Analytics</span><span>·</span>
+      <span>Content Systems</span><span>·</span>
+      <span>AI Strategy</span><span>·</span>
+      <span>Brand Identity</span><span>·</span>
+      <span>Performance Marketing</span><span>·</span>
+      <span>Web &amp; Product</span><span>·</span>
+      <span>Data Analytics</span><span>·</span>
+      <span>Content Systems</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="stats__item reveal">
+      <span class="stats__num" data-target="140">0</span><span class="stats__unit">+</span>
+      <p>Brands transformed</p>
+    </div>
+    <div class="stats__item reveal">
+      <span class="stats__num" data-target="12">0</span><span class="stats__unit">x</span>
+      <p>Average ROAS delivered</p>
+    </div>
+    <div class="stats__item reveal">
+      <span class="stats__num" data-target="98">0</span><span class="stats__unit">%</span>
+      <p>Client retention rate</p>
+    </div>
+    <div class="stats__item reveal">
+      <span class="stats__num" data-target="8">0</span><span class="stats__unit">yr</span>
+      <p>At the frontier</p>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="section-label reveal">
+      <span class="dot"></span> What we do
+    </div>
+    <h2 class="section-title reveal">
+      Full-stack<br /><em>digital muscle.</em>
+    </h2>
+
+    <div class="services__grid">
+
+      <div class="service-card reveal">
+        <div class="service-card__num">01</div>
+        <h3>AI & Tech<br />Strategy</h3>
+        <p>We embed cutting-edge AI into your operations — from LLM-powered workflows to predictive analytics that move faster than your competitors can react.</p>
+        <ul>
+          <li>AI implementation roadmaps</li>
+          <li>Automation architecture</li>
+          <li>Data infrastructure</li>
+          <li>Emerging tech audits</li>
+        </ul>
+        <a href="#contact" class="service-card__link">Start here →</a>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-card__num">02</div>
+        <h3>Brand &amp;<br />Identity</h3>
+        <p>Strategy-first brand building. We define your positioning, craft your visual language, and create the narrative that makes you the only logical choice.</p>
+        <ul>
+          <li>Brand strategy &amp; positioning</li>
+          <li>Visual identity systems</li>
+          <li>Tone of voice</li>
+          <li>Brand architecture</li>
+        </ul>
+        <a href="#contact" class="service-card__link">Start here →</a>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-card__num">03</div>
+        <h3>Performance<br />Marketing</h3>
+        <p>Media buying, paid search, and conversion optimization built on first-party data and machine learning. We don't spend your budget — we invest it.</p>
+        <ul>
+          <li>Paid social &amp; search</li>
+          <li>Programmatic media</li>
+          <li>CRO &amp; landing pages</li>
+          <li>Attribution modeling</li>
+        </ul>
+        <a href="#contact" class="service-card__link">Start here →</a>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-card__num">04</div>
+        <h3>Web &amp;<br />Product</h3>
+        <p>We design and build digital products that convert. From marketing sites to complex web apps, every pixel earns its place.</p>
+        <ul>
+          <li>UX research &amp; design</li>
+          <li>Frontend engineering</li>
+          <li>E-commerce &amp; DTC</li>
+          <li>CMS &amp; headless build</li>
+        </ul>
+        <a href="#contact" class="service-card__link">Start here →</a>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-card__num">05</div>
+        <h3>Content &amp;<br />SEO</h3>
+        <p>Owned media that compounds. We build content systems designed to rank, resonate, and generate demand long after the campaign ends.</p>
+        <ul>
+          <li>Content strategy</li>
+          <li>Technical &amp; editorial SEO</li>
+          <li>Video &amp; creative production</li>
+          <li>Thought leadership</li>
+        </ul>
+        <a href="#contact" class="service-card__link">Start here →</a>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-card__num">06</div>
+        <h3>Analytics &amp;<br />Intelligence</h3>
+        <p>Turn your data into decisions. We build measurement frameworks, dashboards, and insight engines that tell you exactly where to push harder.</p>
+        <ul>
+          <li>GA4 &amp; custom dashboards</li>
+          <li>Customer journey mapping</li>
+          <li>Predictive modelling</li>
+          <li>Competitive intelligence</li>
+        </ul>
+        <a href="#contact" class="service-card__link">Start here →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="work" id="work">
+    <div class="section-label reveal">
+      <span class="dot"></span> Selected work
+    </div>
+    <h2 class="section-title reveal">
+      Results that<br /><em>speak plainly.</em>
+    </h2>
+
+    <div class="work__grid">
+
+      <article class="work-card reveal" data-category="AI Strategy">
+        <div class="work-card__img work-card__img--1">
+          <div class="work-card__overlay">
+            <span>View case study →</span>
+          </div>
+        </div>
+        <div class="work-card__body">
+          <span class="work-card__tag">AI Strategy</span>
+          <h3>Rebuilding a retail brand's entire analytics stack with LLM-powered insights</h3>
+          <div class="work-card__result">+340% decision velocity</div>
+        </div>
+      </article>
+
+      <article class="work-card work-card--tall reveal" data-category="Performance">
+        <div class="work-card__img work-card__img--2">
+          <div class="work-card__overlay">
+            <span>View case study →</span>
+          </div>
+        </div>
+        <div class="work-card__body">
+          <span class="work-card__tag">Performance Marketing</span>
+          <h3>Scaling a DTC food brand from $200k to $4.2M ARR in 14 months</h3>
+          <div class="work-card__result">21x ROAS at peak</div>
+        </div>
+      </article>
+
+      <article class="work-card reveal" data-category="Brand">
+        <div class="work-card__img work-card__img--3">
+          <div class="work-card__overlay">
+            <span>View case study →</span>
+          </div>
+        </div>
+        <div class="work-card__body">
+          <span class="work-card__tag">Brand Identity</span>
+          <h3>Full rebrand for a fintech challenger entering three new markets simultaneously</h3>
+          <div class="work-card__result">Category leader in 6 months</div>
+        </div>
+      </article>
+
+      <article class="work-card reveal" data-category="Web">
+        <div class="work-card__img work-card__img--4">
+          <div class="work-card__overlay">
+            <span>View case study →</span>
+          </div>
+        </div>
+        <div class="work-card__body">
+          <span class="work-card__tag">Web &amp; Product</span>
+          <h3>Zero-to-launch for a SaaS platform in under 8 weeks, including full design system</h3>
+          <div class="work-card__result">$1.2M raised on launch</div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about__left reveal">
+      <div class="section-label">
+        <span class="dot"></span> About
+      </div>
+      <h2 class="section-title">
+        We don't do<br /><em>average.</em>
+      </h2>
+      <div class="about__block">
+        <p class="about__large">RANKED was built on a single conviction: most agencies are too slow, too siloed, and too comfortable with mediocrity.</p>
+        <p>We're a senior team — no juniors staffed on your account, no offshore execution — working at the intersection of brand strategy, performance marketing, and emerging technology.</p>
+        <p>Every engagement is led by a specialist who has done it before, in your industry, at your scale. We move fast because we've already solved most of the hard problems.</p>
+      </div>
+    </div>
+    <div class="about__right reveal">
+      <div class="about__portrait">
+        <div class="about__portrait-img"></div>
+        <div class="about__portrait-caption">
+          <span class="space-mono">The team, Singapore HQ</span>
+        </div>
+      </div>
+      <div class="about__values">
+        <div class="about__value">
+          <span class="about__value-num">I</span>
+          <div>
+            <strong>Senior-only execution</strong>
+            <p>Every deliverable touches a strategist with 10+ years in the field.</p>
+          </div>
+        </div>
+        <div class="about__value">
+          <span class="about__value-num">II</span>
+          <div>
+            <strong>Technology-native</strong>
+            <p>We deploy AI across every service line — not as a buzzword, as infrastructure.</p>
+          </div>
+        </div>
+        <div class="about__value">
+          <span class="about__value-num">III</span>
+          <div>
+            <strong>Outcome-aligned</strong>
+            <p>Our fees are tied to the results we generate. Skin in the game.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process">
+    <div class="section-label reveal">
+      <span class="dot"></span> How we work
+    </div>
+    <div class="process__steps">
+      <div class="process__step reveal">
+        <span class="process__step-num space-mono">01</span>
+        <h3>Diagnose</h3>
+        <p>Deep discovery into your brand, market, data, and competitive landscape. We find the real problem before we prescribe anything.</p>
+      </div>
+      <div class="process__divider reveal">→</div>
+      <div class="process__step reveal">
+        <span class="process__step-num space-mono">02</span>
+        <h3>Architect</h3>
+        <p>Strategy and execution plan built around your specific constraints and growth ceiling. No templates, no off-the-shelf playbooks.</p>
+      </div>
+      <div class="process__divider reveal">→</div>
+      <div class="process__step reveal">
+        <span class="process__step-num space-mono">03</span>
+        <h3>Execute</h3>
+        <p>Full deployment with weekly reporting, live dashboards, and clear accountability at every milestone. You always know where you stand.</p>
+      </div>
+      <div class="process__divider reveal">→</div>
+      <div class="process__step reveal">
+        <span class="process__step-num space-mono">04</span>
+        <h3>Scale</h3>
+        <p>Once the model works, we pour fuel. Systematic scaling with continuous optimisation until you hit your ceiling — then we raise it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="testimonials__inner">
+      <blockquote class="testimonial reveal">
+        <p>"RANKED didn't just run our campaigns — they restructured how we think about growth. The AI systems they built now run autonomously and outperform anything we had before."</p>
+        <cite>
+          <strong>Sarah K.</strong>
+          <span>CMO, Series B SaaS</span>
+        </cite>
+      </blockquote>
+      <blockquote class="testimonial reveal">
+        <p>"Six months in, we're category leader. The brand work alone changed how investors talk about us. Worth every cent."</p>
+        <cite>
+          <strong>Marcus T.</strong>
+          <span>Founder, Fintech Challenger</span>
+        </cite>
+      </blockquote>
+      <blockquote class="testimonial reveal">
+        <p>"The most commercially minded creative team I've worked with. They never let beautiful get in the way of effective."</p>
+        <cite>
+          <strong>Priya N.</strong>
+          <span>VP Marketing, E-commerce Brand</span>
+        </cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <div class="section-label reveal">
+        <span class="dot dot--light"></span> Let's talk
+      </div>
+      <h2 class="contact__headline reveal">
+        Ready to be<br /><em>ranked first?</em>
+      </h2>
+      <p class="contact__sub reveal">We take on a limited number of clients each quarter. If you're serious about growth, let's find out if we're the right fit.</p>
+      <a href="mailto:hello@ranked.agency" class="btn btn--light reveal">hello@ranked.agency</a>
+      <div class="contact__details reveal">
+        <div>
+          <span class="space-mono">Singapore</span>
+          <p>8 Marina Blvd, Marina Bay</p>
+        </div>
+        <div>
+          <span class="space-mono">Sydney</span>
+          <p>100 Harris St, Pyrmont</p>
+        </div>
+        <div>
+          <span class="space-mono">London</span>
+          <p>1 Bartholomew Cl, EC1A</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__top">
+      <span class="footer__logo">RANKED</span>
+      <nav class="footer__nav">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <span class="space-mono">© 2025 RANKED Digital Consultancy</span>
+      <span class="space-mono">All rights reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
