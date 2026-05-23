@@ -72,11 +72,27 @@ img { display: block; max-width: 100%; }
   border-bottom: 1px solid var(--border);
 }
 .nav__logo {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0;
+  line-height: 1;
+}
+.logo-rank {
   font-family: var(--font-mono);
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
+  color: var(--text);
+  text-transform: uppercase;
+}
+.logo-it {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 400;
+  font-style: italic;
   color: var(--accent);
+  letter-spacing: -0.01em;
+  line-height: 1;
 }
 .nav__links {
   display: flex;
@@ -709,12 +725,11 @@ img { display: block; max-width: 100%; }
   margin-bottom: 1.5rem;
 }
 .footer__logo {
-  font-family: var(--font-mono);
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  color: var(--accent);
+  display: inline-flex;
+  align-items: baseline;
 }
+.footer__logo .logo-rank { font-size: 0.95rem; }
+.footer__logo .logo-it { font-size: 1.2rem; }
 .footer__nav {
   display: flex;
   gap: 2rem;
