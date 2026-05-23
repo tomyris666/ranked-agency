@@ -16,7 +16,7 @@
   --font-serif: 'DM Serif Display', Georgia, serif;
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-mono: 'Space Mono', monospace;
-  --radius: 4px;
+  --radius: 0;
   --transition: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -110,7 +110,7 @@ img { display: block; max-width: 100%; }
 .nav__cta {
   padding: 0.55rem 1.4rem;
   border: 1px solid var(--border);
-  border-radius: 100px;
+  border-radius: 0;
   color: var(--text) !important;
   transition: background 0.2s, border-color 0.2s !important;
 }
@@ -156,7 +156,7 @@ img { display: block; max-width: 100%; }
   width: 70vw;
   height: 70vw;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(200,255,0,0.04) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(0,180,200,0.04) 0%, transparent 65%);
   pointer-events: none;
 }
 .hero__eyebrow {
@@ -172,11 +172,12 @@ img { display: block; max-width: 100%; }
   animation: fadeUp 1s 0.2s both;
 }
 .dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  border-radius: 0;
   background: var(--accent);
   flex-shrink: 0;
+  transform: rotate(45deg);
 }
 .dot--light { background: rgba(240,235,224,0.4); }
 .hero__headline {
@@ -224,10 +225,12 @@ img { display: block; max-width: 100%; }
   align-items: center;
   gap: 0.5rem;
   padding: 0.85rem 2rem;
-  border-radius: 100px;
+  border-radius: 0;
   font-size: 0.9rem;
   font-weight: 500;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: var(--font-mono);
   transition: all 0.25s;
   cursor: pointer;
   border: none;
@@ -445,7 +448,7 @@ img { display: block; max-width: 100%; }
   cursor: pointer;
   transition: border-color var(--transition);
 }
-.work-card:hover { border-color: rgba(200,255,0,0.3); }
+.work-card:hover { border-color: rgba(0,180,200,0.3); }
 .work-card__img {
   height: 280px;
   position: relative;
@@ -465,7 +468,7 @@ img { display: block; max-width: 100%; }
   padding: 1.5rem;
   transition: background var(--transition);
 }
-.work-card:hover .work-card__overlay { background: rgba(200,255,0,0.08); }
+.work-card:hover .work-card__overlay { background: rgba(0,180,200,0.08); }
 .work-card__overlay span {
   font-size: 0.8rem;
   font-weight: 500;
@@ -541,8 +544,8 @@ img { display: block; max-width: 100%; }
     45deg,
     transparent,
     transparent 40px,
-    rgba(200,255,0,0.02) 40px,
-    rgba(200,255,0,0.02) 41px
+    rgba(0,180,200,0.02) 40px,
+    rgba(0,180,200,0.02) 41px
   );
 }
 .about__portrait-caption {
@@ -634,7 +637,7 @@ img { display: block; max-width: 100%; }
   background: var(--bg-2);
   transition: border-color var(--transition);
 }
-.testimonial:hover { border-color: rgba(200,255,0,0.2); }
+.testimonial:hover { border-color: rgba(0,180,200,0.2); }
 .testimonial p {
   font-family: var(--font-serif);
   font-size: 1.1rem;
